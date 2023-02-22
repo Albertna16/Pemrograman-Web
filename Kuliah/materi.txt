@@ -1,0 +1,9 @@
+website adalah sebuah kumpulan halaman, isi halaman bisa text, gambar, vidio, animasi, dll. sifat website statis(html, data tidak bisa diubah karena harus merubah koding untuk merubah tampilan) dan dinamis(dinamis isinya bisa tambah konten). hyperlink merupakan jaringan-jaringan halaman.
+
+web domain adalah alamat unik untuk mengidentifikasi sebuah website yang digunakan untuk menemukan sebuah website dan nama tersebut untuk manusia. contohnya domain dari web upn = upnjatim.ac.id
+
+web hosting adalah tempat menyimpan berbagai data, file, gambar, video dan lain lain yang akan ditampilkan di website.
+
+tugas membuat website biodata diri hanya dengan menggunakan html.
+
+untuk project akhirnya diupload di github
