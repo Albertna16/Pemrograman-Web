@@ -1,0 +1,153 @@
+.Navbar{
+    display: flex;  /* syarat untuk memakai justify-content dan align-items */
+    justify-content: center; /* untuk menengahkan kanan dan kiri */
+    align-items: center; /* untuk menengahkan atas dan bawah*/
+    margin-top: 30px;
+    width: 100%;
+    position: fixed;
+}
+
+.Kotak-1{
+    background-image: url("../image/background.jpg");
+    background-size: cover;
+    background-position: -500px 0 -300px;
+}
+
+.Kotak-1 h3{
+    text-align: center;
+    color: white;
+    font-size: 64px;
+    padding-top: 60px;
+    font-family: "Itim";
+}
+
+.Kotak-1 .container-1{
+    padding: 0px 150px 140px 150px;
+    display: grid;
+    grid-template-areas: "box-1-1 box-1-2" ;
+    grid-template-columns: 0.5fr 0.5fr;
+}
+
+.Kotak-1 .box-1-1{
+    font-family: "Itim";
+    color: white;
+    grid-area: box-1-1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Kotak-1 h1{
+    text-align: start;
+}
+
+.Kotak-1 .box-1-2{
+    justify-content: end;
+    grid-area: box-1-2;
+    display: flex;
+}
+
+.Kotak-1 .box-1-2 img{
+    height: 500px;
+}
+
+.Kotak-2 .container-2{
+    padding: 140px 200px 140px 200px;
+    display: grid;
+    grid-template-areas: "box-2-1 box-2-2" ;
+    grid-template-columns: 0.5fr 0.5fr;
+    font-family: "Itim";
+}
+
+.Kotak-2 .box-2-1{
+    grid-area: box-2-1;
+}
+
+.Kotak-2 .box-2-2{
+    grid-area: box-2-2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.Kotak-2 .box-2-2 .logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo i{
+    padding-right: 20px;
+}
+
+.container-3{
+    padding: 100px 150px 100px 150px;
+    font-family: "Itim";
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    height: 300px;
+    width: 250px;
+    border-radius: 60px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+}
+
+.card i{
+    font-size: 60px;
+}
+
+.card h2{
+    font-size: 30px;
+}
+
+.card p{
+    font-size: 25px;
+}
+
+.card a{
+    padding: 20px 0;
+    width: 100%;
+    background-color: #5E7D99;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.container-4{
+    padding: 140px 200px 140px 200px;
+    display: grid;
+    grid-template-areas: "box-4-1 box-4-2" ;
+    grid-template-columns: 0.5fr 0.5fr;
+    font-family: "Itim";
+    color: white;
+}
+
+.container-4 .box-4-1{
+    grid-area: box-4-1;
+}
+
+.box-4-2{
+    padding-left: 40px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.button a{
+    padding: 20px 40px;
+    background-color: #5E7D99;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+}
