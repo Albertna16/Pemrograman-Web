@@ -1,47 +1,37 @@
-.Navbar{
-    display: flex;  /* syarat untuk memakai justify-content dan align-items */
-    justify-content: center; /* untuk menengahkan kanan dan kiri */
-    align-items: center; /* untuk menengahkan atas dan bawah*/
-    margin-top: 30px;
-    width: 100%;
-    position: fixed;
-}
-
-.Kotak-1{
+.Kotak-1{ /*untuk kotak awal atau slide pertama*/
     background-image: url("../image/background.jpg");
-    background-size: cover;
-    background-position: -500px 0 -300px;
+    background-size: cover; /*backgroundnya agar memenuhi layar*/
+    background-position: -500px 0 -300px; /*untuk mencari posisi gambarnya*/
 }
 
-.Kotak-1 h3{
+.Kotak-1 h3{ /*untuk judul awal atau kalimat selamat datang*/
     text-align: center;
     color: white;
     font-size: 64px;
     padding-top: 60px;
-    font-family: "Itim";
 }
 
-.Kotak-1 .container-1{
+.Kotak-1 .container-1{ /*untuk membungkus box-1-1 dan box-1-2*/
     padding: 0px 150px 140px 150px;
-    display: grid;
-    grid-template-areas: "box-1-1 box-1-2" ;
-    grid-template-columns: 0.5fr 0.5fr;
+    display: grid; /*membagi layar menjadi 2*/
+    grid-template-areas: "box-1-1 box-1-2" ; /*agar areanya diisi oleh class box-1-1 dan box-1-2*/
+    grid-template-columns: 0.5fr 0.5fr; /*prosentasi antara kolom 1 dan kolom 2*/
+    font-family: "Itim";
 }
 
-.Kotak-1 .box-1-1{
-    font-family: "Itim";
+.Kotak-1 .box-1-1{ /*untuk kalimat di halaman pertama bagian sebelah kiri*/
     color: white;
-    grid-area: box-1-1;
+    grid-area: box-1-1; /*untuk masuk ke baris 17 bagian box-1-1*/
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: column; /*untuk menjadikan vertical / bentuk kolom*/
+    justify-content: center; /*agar posisinya menjadi tengah*/
 }
 
 .Kotak-1 h1{
     text-align: start;
 }
 
-.Kotak-1 .box-1-2{
+.Kotak-1 .box-1-2{ /*untuk gambar / foto dibagian kanan halaman pertama*/
     justify-content: end;
     grid-area: box-1-2;
     display: flex;
@@ -51,28 +41,28 @@
     height: 500px;
 }
 
-.Kotak-2 .container-2{
+.Kotak-2 .container-2{ /*untuk membungkus box-2-1 dan box-2-2*/
     padding: 140px 200px 140px 200px;
     display: grid;
-    grid-template-areas: "box-2-1 box-2-2" ;
-    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-areas: "box-2-1 box-2-2" ; /*agar areanya diisi oleh class box-2-1 dan box-2-2*/
+    grid-template-columns: 0.5fr 0.5fr; /*prosentase antara kolom 1 dan kolom 2*/
     font-family: "Itim";
 }
 
 .Kotak-2 .box-2-1{
-    grid-area: box-2-1;
+    grid-area: box-2-1; 
 }
 
 .Kotak-2 .box-2-2{
     grid-area: box-2-2;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: start; /*untuk sebelah kanan dan kiri*/
 }
 
 .Kotak-2 .box-2-2 .logo{
     display: flex;
-    align-items: center;
+    align-items: center; /*untuk center atas dan bawah*/
 }
 
 .logo i{
@@ -85,7 +75,7 @@
 }
 
 .box{
-    display: flex;
+    display: flex; /*Memungkinkan untuk pengaturan layout, posisi dan tampilan dari suatu konten yang ukurannya belum diketahui atau bernilai dinamis.*/
     justify-content: space-between;
 }
 
@@ -95,7 +85,7 @@
     border-radius: 60px;
     background-color: beige;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     padding: 40px;
     text-align: center;
