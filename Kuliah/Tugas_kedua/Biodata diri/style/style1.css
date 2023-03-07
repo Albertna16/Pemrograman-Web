@@ -60,6 +60,18 @@
     justify-content: start; /*untuk sebelah kanan dan kiri*/
 }
 
+.box-table{
+    background-color: transparent;
+    border: 3px solid;
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.box-table table td{
+    padding: 4px;
+    font-size: 20px;
+}
+
 .Kotak-2 .box-2-2 .logo{
     display: flex;
     align-items: center; /*untuk center atas dan bawah*/
