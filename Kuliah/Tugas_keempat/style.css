@@ -1,0 +1,40 @@
+main{
+    padding-top: 100px;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    position: fixed;
+    z-index: 9999;
+}
+
+.container-nav {
+    width: 1240px;
+    background-color: #242222;
+    border-radius: 20px;
+    opacity: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 7%;
+    box-sizing: border-box;
+}
+
+nav .nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+nav .nav-menu a {
+    margin-left: 30px;
+    text-decoration: none;
+    font-weight: lighter;
+    color: #f8f8fa;
+}
+
+nav .nav-menu a:hover {
+    color: #8f8f9f;
+}
