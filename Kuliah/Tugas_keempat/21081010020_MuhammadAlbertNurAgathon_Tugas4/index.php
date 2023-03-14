@@ -1,9 +1,6 @@
 <?php
-//memanggil file conn.php yang berisi koneski ke database
-//dengan include, semua kode dalam file conn.php dapat digunakan pada file index.php
 include('connection.php');
-
-// $conn = mysqli_connect("localhost", "root", "", "classicmodels")
+$i = 1;
 ?>
 
 <!DOCTYPE html>
@@ -36,6 +33,7 @@ include('connection.php');
         <table class="table table-success table-striped table-bordered">
             <thead>
                 <tr>
+                    <th scope="col">Number</th>
                     <th scope="col">productCode</th>
                     <th scope="col">productName</th>
                     <th scope="col">productLine</th>
@@ -57,6 +55,7 @@ include('connection.php');
 
                 <?php while ($data = mysqli_fetch_array($result)) : ?>
                     <tr class="dataProduct">
+                        <th><?php echo $i; ?></th>
                         <th><?php echo $data['productCode'];  ?></th>
                         <td><?php echo $data['productName'];  ?></td>
                         <td><?php echo $data['productLine'];  ?></td>
@@ -67,6 +66,7 @@ include('connection.php');
                         <td><?php echo $data['buyPrice'];  ?></td>
                         <td><?php echo $data['MSRP'];  ?></td>
                     </tr>
+                    <?php $i++ ?>
                 <?php endwhile ?>
             </tbody>
         </table>
