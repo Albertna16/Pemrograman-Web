@@ -1,2 +1,6 @@
 Link repository :
+<<<<<<< HEAD
 https://github.com/Albertna16/Pemrograman-Web/tree/main/Kuliah/Tugas_Kelima/21081010020_MuhammadAlbertNurAgathon_Tugas5
+=======
+https://github.com/Albertna16/Pemrograman-Web/tree/main/Kuliah/Tugas_Kelima/21081010020_MuhammadAlbertNurAgathon_Tugas5
+>>>>>>> 98c425f07f850013623e1f6695443ef9ef9b7a0a
